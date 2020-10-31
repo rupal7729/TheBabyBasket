@@ -1,0 +1,10 @@
+1.for create the .git folder
+==>git init
+
+2.for check the git folder status
+==> git status
+
+3.to create the file in git folder
+==> touch <filename>
+
+4.
