@@ -7,4 +7,21 @@
 3.to create the file in git folder
 ==> touch <filename>
 
-4.
+4.to add the file in git local repository
+==> git add .
+(if you want to add only html page then write ==> git add *.html)
+
+5.after add the file in git do commit on that action
+Commit can be thought of as a milestone. Every time you accomplish some work, you can write a Git commit to store that version of your file, so you can go back later and see what it looked like at that point in time. Whenever you make a change to your file, you create a new version of that file, different from the previous one.
+==> git commit -m "first commit"
+
+6.create the branch for the folder
+==>git branch -M master
+
+7.it's time to connect your computer to GitHub with the command
+This allows you to interact with your Git repository on GitHub.com by typing origin instead of the full URL and Git will know where to send your code. Why origin? Well, you can name it anything else if you'd like.
+Now we have connected our local copy of the Demo repository to its remote counterpart on GitHub.com
+==>git remote add origin https://github.com/rupal7729/TheBabyBasket.git
+
+8.after that push the data to the git remote repository
+==>git push -u origin master
