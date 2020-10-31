@@ -25,3 +25,15 @@ Now we have connected our local copy of the Demo repository to its remote counte
 
 8.after that push the data to the git remote repository
 ==>git push -u origin master
+
+9.you make some changes in local file then you want to upload that in git remote then first check git status
+==> git status
+
+10.after then uplaod modified file
+==> git add <filename> or git add .
+
+11. after that you have to commit on the change
+==> git commit -m "is changed"
+
+12 you have to push that file in remote repository
+==> git push
